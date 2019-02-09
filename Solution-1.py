@@ -21,11 +21,14 @@
 
 # Adding input screen source for input (https://www.w3schools.com/python/ref_func_input.asp)
 
+ans = 1
+
 print ("Please enter a positive Integer")
 
-start = input()
+# Updated material type for start to int (source python tutorial) as before was giving error due to inputs being a string as default
 
-ans = 1
+start = int (input())
+
 
 while start > 1:
   ans = ans * start
