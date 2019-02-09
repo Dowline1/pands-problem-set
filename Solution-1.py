@@ -18,6 +18,12 @@
 # Keep multiplying ans by start while start greater than 1
 # Only 2 things reqiuired to workout factorial (number to calculate and 1 ie always stop at 1)
 # i not required as factorial multiplaction always ends at 1
+
+# Adding input screen
+
+print ("Please enter a positive Integer")
+
+
 start = 10
 ans = 1
 
