@@ -31,7 +31,7 @@ start = int (input())
 
 
 while start > 1:
-  ans = ans * start
+  ans = ans + start
   start = start - 1
 
 print (ans)
