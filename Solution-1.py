@@ -19,12 +19,12 @@
 # Only 2 things reqiuired to workout factorial (number to calculate and 1 ie always stop at 1)
 # i not required as factorial multiplaction always ends at 1
 
-# Adding input screen
+# Adding input screen source for input (https://www.w3schools.com/python/ref_func_input.asp)
 
 print ("Please enter a positive Integer")
 
+start = input()
 
-start = 10
 ans = 1
 
 while start > 1:
