@@ -21,14 +21,22 @@
 
 # Adding input screen source for input (https://www.w3schools.com/python/ref_func_input.asp)
 
-ans = 1
-
-print ("Please enter a positive Integer")
-
 # Updated material type for start to int (source python tutorial) as before was giving error due to inputs being a string as default
 
-start = int (input())
+ans = 1
 
+# code adapyed from below link which prevents numbers less than 0 and non numeric characters being entered.
+# https://www.quora.com/How-can-I-make-sure-the-user-inputs-a-positive-integer-in-Python
+while True:
+  try:
+    start = int(input("Please enter a positive Integer "))
+    assert (start > 0)
+    break
+  except:
+    print("You entered a number less than 1 or a non numeric character, please try again.")
+
+
+start = int(start)
 
 while start > 1:
   ans = ans + start
