@@ -14,10 +14,7 @@
 
 #print (ans)
 
-# As highlighted during lecture below is line of thought to simplify code
-# Keep multiplying ans by start while start greater than 1
-# Only 2 things reqiuired to workout factorial (number to calculate and 1 ie always stop at 1)
-# i not required as factorial multiplaction always ends at 1
+
 
 # Adding input screen source for input (https://www.w3schools.com/python/ref_func_input.asp)
 
@@ -25,8 +22,8 @@
 
 ans = 1
 
-# code adapyed from below link which prevents numbers less than 0 and non numeric characters being entered.
-# https://www.quora.com/How-can-I-make-sure-the-user-inputs-a-positive-integer-in-Python
+# code adapted from below link which prevents numbers less than 0 and non numeric characters being entered.
+# Adapted from: https://www.quora.com/How-can-I-make-sure-the-user-inputs-a-positive-integer-in-Python
 while True:
   try:
     start = int(input("Please enter a positive Integer "))
@@ -35,6 +32,11 @@ while True:
   except:
     print("You entered a number less than 1 or a non numeric character, please try again.")
 
+
+# As highlighted during lecture below is line of thought to simplify code
+# Keep multiplying ans by start while start greater than 1
+# Only 2 things reqiuired to workout factorial (number to calculate and 1 ie always stop at 1)
+# i not required as factorial multiplaction always ends at 1
 
 start = int(start)
 
