@@ -2,7 +2,7 @@
 
 This repository contains my solutions to the problem set 2019 for the module Programming & Scripting at GMIT.
 
-Click [here] for the instructions: (https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf)
+Click [here](https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf) for the instructions. 
 
 ## How to download this repository
 
