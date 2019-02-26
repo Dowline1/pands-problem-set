@@ -24,11 +24,19 @@ ans = 1
 
 # code adapted from below link which prevents numbers less than 0 and non numeric characters being entered.
 # Adapted from: https://www.quora.com/How-can-I-make-sure-the-user-inputs-a-positive-integer-in-Python
+ 
 while True:
+  # Try Statement used with except statement below controls what happens with code, in this case if input > 0 break terminates the while loop and code continues.
   try:
     start = int(input("Please enter a positive Integer "))
+
+# Assert is a boolean expression and checks in this case that input is > 0(True) or input < 0 (False), if False assertion error given.
     assert (start > 0)
     break
+
+# In this case if input is < 0 or non numeric character entered except executes (assert error when False). 
+# Except is an exception handler, when break is not executed in code below, except initiates prints the text and begins while again until criteria met.
+
   except:
     print("You entered a number less than 1 or a non numeric character, please try again.")
 
