@@ -5,7 +5,8 @@
 
 import datetime
 
-if datetime.datetime.today().weekday() == 1 or 3:
+# Updated or statement as before did not work as did not specify all statement alternative of or.
+if datetime.datetime.today().weekday() == 1 or datetime.datetime.today().weekday() == 3 :
   print("Yes, Today does begin with a T.")
 else:
   print("No, Today does not begin with T.")
