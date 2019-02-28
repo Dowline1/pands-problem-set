@@ -16,14 +16,16 @@ diviser = start
 
 # Adapting code that was used in Solution 1.
 # Prime number is a natural number divisble evenly by itself and 1 i.e. modulo must = 0. Note: 1 is not a primes number as only has one divisor (Prime must = 2 Divisors):https://brilliant.org/wiki/is-1-prime/
-while   diviser > 0:
+while   diviser > 1:
     if (start % diviser == 0):
         count = count + 1
         diviser = diviser - 1
+    # Added elif as program was getting stuck in infinite loop as program did not know what to do if start%diviser was not = 0    
+    elif (start % diviser != 0):
+        diviser = diviser - 1
 
-if (count == 2):
+if (count == 1):
     print("That is a Prime Number.")
 
 else:
     print("That is not a Prime Number.")
-
