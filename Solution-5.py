@@ -12,6 +12,7 @@ while True:
 
 # Counter to determine number of times modulo of start to 2 is = 0
 count = 0
+# Needed diviser to keep track of what to divide start by 
 diviser = start
 
 # Adapting code that was used in Solution 1.
