@@ -21,6 +21,8 @@ Click [here](https://github.com/ianmcloughlin/problems-pands-2019/raw/master/pro
 1. Solution-1.py contains my solution to problem 1 in the problem set.
 2. Solution-2.py contains my solution to problem 2 in the problem set.
 3. Solution-3.py contains my solution to problem 3 in the problem set.
+4. Solution-4.py contains my solution to problem 4 in the problem set.
+5. Solution-5.py contains my solution to problem 5 in the problem set.
 
 ## References
 
