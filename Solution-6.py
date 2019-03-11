@@ -10,6 +10,8 @@ startsplit = start.split()
 # Below takes the list of words and from the second character returns every second word in list. Source of code: https://stackoverflow.com/questions/8865878/skipping-every-other-element-after-the-first/8865905
 # Split works like this: [index of start point(i.e first word per below code): index of endpoint(i.e no end point per below code): steps between(i.e every second word from start point)].
 startslice = startsplit[1::2]
+# Join takes startslice in below example and puts string back together where the words are seperate by a space denoted by ' '. Source of code: http://www.pitt.edu/~naraehan/python3/split_join.html
+startslice = ' '.join(startslice)
 
-print (startsplit)
-print (startslice)
+# Finally print result.
+print(startslice)
