@@ -19,4 +19,5 @@ ans = math.sqrt(start)
 # Round used to round result to 1 decimal place. Source of code: https://docs.python.org/3/library/functions.html?highlight=round#round
 ans = round(ans,1)
 
-print(ans)
+# Printing text with results taken from https://www.programiz.com/python-programming/methods/built-in/print
+print('The square root of ', start, 'is approx. ' ,(ans),'.')
