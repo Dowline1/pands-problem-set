@@ -25,8 +25,9 @@ while   diviser > 1:
     elif (start % diviser != 0):
         diviser = diviser - 1
 
+# Formatted output of programme to make more sense.
 if (count == 1):
-    print("That is a Prime Number.")
+    print(start,'is a Prime Number.')
 
 else:
-    print("That is not a Prime Number.")
+    print(start,'is not a Prime Number.')

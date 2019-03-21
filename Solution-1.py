@@ -46,10 +46,13 @@ while True:
 # Only 2 things reqiuired to workout factorial (number to calculate and 1 ie always stop at 1)
 # i not required as factorial multiplaction always ends at 1
 
+# Tracks number inputted
+begin = start
 start = int(start)
 
 while start > 1:
   ans = ans + start
   start = start - 1
 
-print (ans)
+# Formats output in a way that makes sense.
+print ('The sum of all numbers between',begin,'and 1 inclusive is',ans,'.')
